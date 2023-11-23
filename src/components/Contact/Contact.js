@@ -49,8 +49,8 @@ function Contact() {
             <textarea name="message" rows="5" placeholder='Your Message' className='msg'></textarea>
             <button type='submit' value="Send" className="submitBtn"  onClick={()=>alert("Message sent Successfully")}>Send</button>
             <div className="links">
-              <a href="#"><img src={FacebookIcon} alt="Facebook" className='link'/></a>
-              <a href="#"><img src={InstagramIcon} alt="Instagram" className='link'/></a>
+              <a href="https://www.facebook.com/sai.swaroop.12177276?mibextid=ZbWKwL"><img src={FacebookIcon} alt="Facebook" className='link'/></a>
+              <a href="https://instagram.com/tipparthi_swaroop?igshid=NzZlODBkYWE4Ng=="><img src={InstagramIcon} alt="Instagram" className='link'/></a>
               <a href="https://www.linkedin.com/in/tswarooprs"><img src={LinkedInIcon} alt="LinkedIn" className='link'/></a>
               <a href="https://github.com/swaroop2431"><img src={GitHubIcon} alt="GitHub" className='link'/></a>
             </div>
